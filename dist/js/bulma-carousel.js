@@ -779,7 +779,7 @@ var bulmaCarousel = function (_EventEmitter) {
         return;
       }
 
-      if (typeof index === 'Number') {
+      if (typeof index === 'number') {
         this.state.next = index;
       }
 
